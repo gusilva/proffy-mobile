@@ -1,25 +1,22 @@
-# mobile
+# Proffy - mobile
 
-[![CircleCI](https://circleci.com/gh/infinitered/ignite-bowser.svg?style=svg)](https://circleci.com/gh/infinitered/ignite-bowser)
+[![license](https://img.shields.io/github/license/ajaymache/travis-ci-with-github.svg)](https://opensource.org/licenses/MIT)&nbsp;&nbsp;
 
-## The latest and greatest boilerplate for Infinite Red opinions
+## Proffy 1.0
 
-This is the boilerplate that [Infinite Red](https://infinite.red) uses as a way to test bleeding-edge changes to our React Native stack.
-
-Currently includes:
+This is the NLW project from (https://nextlevelweek.com). In this mobile version includes the following technologies:
 
 - React Native
 - React Navigation
 - MobX State Tree
 - TypeScript
-- And more!
+- i18
 
 ## Quick Start
 
-The Ignite Bowser boilerplate project's structure will look similar to this:
+The Proffy project's structure:
 
 ```
-ignite-project
 ├── app
 │   ├── components
 │   ├── i18n
@@ -57,19 +54,17 @@ ignite-project
 │   └── plugins
 ├── index.js
 ├── ios
-│   ├── IgniteProject
-│   ├── IgniteProject-tvOS
-│   ├── IgniteProject-tvOSTests
-│   ├── IgniteProject.xcodeproj
-│   └── IgniteProjectTests
+│   ├── mobile
+│   ├── mobile-tvOS
+│   ├── mobile-tvOSTests
+│   ├── mobile.xcodeproj
+│   └── mobileTests
 ├── .env
 └── package.json
 
 ```
 
 ### ./app directory
-
-Included in an Ignite boilerplate project is the `app` directory. This is a directory you would normally have to create when using vanilla React Native.
 
 The inside of the src directory looks similar to the following:
 
@@ -87,7 +82,7 @@ app
 ```
 
 **components**
-This is where your React components will live. Each component will have a directory containing the `.tsx` file, along with a story file, and optionally `.presets`, and `.props` files for larger components. The app will come with some commonly used components like Button.
+This is where your React components will live. Each component will have a directory containing the `.tsx` file, along with a story file, and optionally `.presets`, and `.props` files for larger components.
 
 **i18n**
 This is where your translations will live if you are using `react-native-i18n`.
@@ -135,9 +130,18 @@ For Visual Studio Code users, there is a handy extension that makes it easy to l
 
 ## Previous Boilerplates
 
-- [2017 aka Andross](https://github.com/infinitered/ignite-andross)
-- [2016 aka Ignite 1.0](https://github.com/infinitered/ignite-ir-boilerplate-2016)
+### Built With
 
-## Premium Support
+* [ReactNative](https://reactnative.dev/) - Learn once, write anywhere.
+* [Typescript](https://www.typescriptlang.org/) - Typed JavaScript at Any Scale.
+* [ReactNavigation](https://reactnavigation.org/) - Routing and navigation for your React Native apps.
+* [MobX-State-Tree](https://mobx-state-tree.js.org/) - It helps you organize your application states in a very structured manner.
+* [IgniteBowser](https://github.com/infinitered/ignite-bowser) - The hottest React Native boilerplate.
 
-[Ignite CLI](https://infinite.red/ignite), [Ignite Andross](https://github.com/infinitered/ignite-andross), and [Ignite Bowser](https://github.com/infinitered/ignite-bowser), as open source projects, are free to use and always will be. [Infinite Red](https://infinite.red/) offers premium Ignite support and general mobile app design/development services. Email us at [hello@infinite.red](mailto:hello@infinite.red) to get in touch with us for more details.
+## Authors
+
+* **Gustavo Silva** - *Initial work* - [Profile](https://github.com/gusilva/proffy-mobile)
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE.md file for details

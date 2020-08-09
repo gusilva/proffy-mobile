@@ -1,0 +1,66 @@
+{
+  "landing": {
+    "title": "Seja bem-vindo, ",
+    "subtitle": "O que deseja fazer?",
+    "button": {
+      "study": "Estudar",
+      "teach": "Dar aulas"
+    },
+    "totalConnections": "Total de 285 conexoes ja realizadas "
+  },
+  "give-classes": {
+    "title": "Quer ser um Proffy?",
+    "description": "Para comecar, voce precisa se cadastrar como professor na nossa plataforma web.",
+    "ok-button": "Tudo bem"
+  },
+  "tabs": {
+    "favorite": "Favoritos"
+  },
+  "favorite-tab": {
+    "title": "Meus proffys Favoritos"
+  },
+  "teacher-tab": {
+    "title": "Proffys Disponiveis",
+    "price": "Preco/hora ",
+    "currency": "R$ ",
+    "contact": "Entrar em contato"
+  },
+  "search-box": {
+    "subject": "Materia",
+    "subject-placeholder": "Qual a materia?",
+    "week-day": "Dia da Semana",
+    "week-day-placeholder": "Qual o dia?",
+    "time": "Horario",
+    "time-placeholder": "Qual horario?",
+    "submit-button": "Filtrar"
+  },
+
+
+
+
+  "common": {
+    "ok": "OK!",
+    "cancel": "Cancel",
+    "back": "Back"
+  },
+  "errors": {
+    "invalidEmail": "Invalid email address."
+  },
+  "welcomeScreen": {
+    "poweredBy": "POWERED BY BOWSER",
+    "readyForLaunch": "Ready for launch.",
+    "continue": "CONTINUE"
+  },
+  "demoScreen": {
+    "howTo": "HOW TO",
+    "title": "What’s In This Stack?",
+    "tagLine": "Congratulations, you’ve got a very advanced React Native app template here.  Take advantage of this boilerplate!",
+    "reactotron": "Demo Reactotron",
+    "androidReactotronHint": "If this doesn't work, ensure the Reactotron desktop app is running, run adb reverse tcp:9090 tcp:9090 from your terminal, and reload the app.",
+    "iosReactotronHint": "If this doesn't work, ensure the Reactotron desktop app is running and reload app."
+  },
+  "storybook": {
+    "placeholder": "Placeholder",
+    "field": "Field"
+  }
+}

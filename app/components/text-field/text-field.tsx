@@ -1,15 +1,15 @@
 import React, { FunctionComponent as Component } from "react"
 import { View, TextInput, TextStyle, ViewStyle } from "react-native"
-import { color, spacing, typography } from "../../theme"
+import { color, typography } from "../../theme"
 import { translate } from "../../i18n"
-import { Text } from "../text/text"
+import { Text } from ".."
 import { TextFieldProps } from "./text-field.props"
 import { mergeAll, flatten } from "ramda"
 
 // the base styling for the container
-const CONTAINER: ViewStyle = {
-  paddingVertical: spacing[3],
-}
+// const CONTAINER: ViewStyle = {
+//   // paddingVertical: spacing[3],
+// }
 
 // the base styling for the TextInput
 const INPUT: TextStyle = {
@@ -44,7 +44,7 @@ export const TextField: Component<TextFieldProps> = props => {
     forwardedRef,
     ...rest
   } = props
-  let containerStyle: ViewStyle = { ...CONTAINER, ...PRESETS[preset] }
+  let containerStyle: ViewStyle = { ...PRESETS[preset] }
   containerStyle = enhance(containerStyle, styleOverride)
 
   let inputStyle: TextStyle = INPUT

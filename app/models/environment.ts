@@ -1,4 +1,4 @@
-import { Api } from "../services/api"
+import { ProffyApi as Api } from "../services/proffy-api"
 
 let ReactotronDev
 if (__DEV__) {
