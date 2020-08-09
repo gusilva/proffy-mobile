@@ -134,9 +134,7 @@ In `index.js`, change `SHOW_STORYBOOK` to `true` and reload the app.
 
 For Visual Studio Code users, there is a handy extension that makes it easy to load Storybook use cases into a running emulator via tapping on items in the editor sidebar. Install the `React Native Storybook` extension by `Orta`, hit `cmd + shift + P` and select "Reconnect Storybook to VSCode". Expand the STORYBOOK section in the sidebar to see all use cases for components that have `.story.tsx` files in their directories.
 
-## Previous Boilerplates
-
-### Built With
+## Built With
 
 * [ReactNative](https://reactnative.dev/) - Learn once, write anywhere.
 * [Typescript](https://www.typescriptlang.org/) - Typed JavaScript at Any Scale.
@@ -146,7 +144,7 @@ For Visual Studio Code users, there is a handy extension that makes it easy to l
 
 ## Authors
 
-* **Gustavo Silva** - *Initial work* - [Profile](https://github.com/gusilva/proffy-mobile)
+* **Gustavo Silva** - *Initial work* - [Proffy-Mobile](https://github.com/gusilva/proffy-mobile)
 
 ## License
 
