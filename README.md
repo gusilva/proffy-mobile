@@ -13,7 +13,7 @@
 - i18
 
 <p align="center" >
-    <img src="docs/home-screen.png" title="Homescreen">
+    <img src="docs/home-screen.png" alt="Homescreen" width="414px">
 </p>
 
 
