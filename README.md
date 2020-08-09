@@ -4,13 +4,19 @@
 
 ## Proffy 1.0
 
-This is the NLW project from (https://nextlevelweek.com). In this mobile version includes the following technologies:
+> This is the NLW project from (https://nextlevelweek.com). This mobile version includes the following technologies:
 
 - React Native
 - React Navigation
 - MobX State Tree
 - TypeScript
 - i18
+
+<p align="center" >
+    <img src="docs/home-screen.png" title="Homescreen">
+</p>
+
+
 
 ## Quick Start
 
