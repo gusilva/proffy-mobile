@@ -1,6 +1,8 @@
 # Proffy - mobile
 
 [![license](https://img.shields.io/github/license/ajaymache/travis-ci-with-github.svg)](https://opensource.org/licenses/MIT)&nbsp;&nbsp;
+[![typescript](https://img.shields.io/badge/-TypeScript-%23007ACC?style=flat-square&logo=TYPESCRIPT)](https://www.typescriptlang.org/)&nbsp;&nbsp;
+[![reactnative](https://img.shields.io/badge/Mobile-React%20Native-%235849BE?style=flat-square&logo=REACT)](https://reactnative.dev/)&nbsp;&nbsp;
 
 ## Proffy 1.0
 
